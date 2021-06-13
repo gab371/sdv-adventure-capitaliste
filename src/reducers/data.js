@@ -56,6 +56,20 @@ const initialState = [{
   timeFactory: 10000,
   totalCostFactoryUnit: 160000,
   image: 'https://image.flaticon.com/icons/png/512/741/741407.png'
+}, {
+  id: 5,
+  isManaged: false,
+  unlockManagerPrice: 20000000,
+  unlock: false,
+  unlockPricing: 1000000,
+  multi: 1,
+  name: 'House',
+  price: 100000,
+  startPrice: 100000,
+  curentPrice: 100000,
+  timeFactory: 50000,
+  totalCostFactoryUnit: 2000000,
+  image: 'https://image.flaticon.com/icons/png/512/609/609803.png'
 }];
 
 const unlockProduct = (state, itemID) => {
