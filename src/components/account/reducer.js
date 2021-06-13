@@ -1,7 +1,7 @@
 import { actionTypes } from './actions';
 
 const initialState = {
-  money: 100000
+  money: 0
 };
 
 const addMoney = (state, action) => ({
